@@ -4,8 +4,10 @@ import MiddleComp from "./components/MiddleComp";
 import ItemsComp from "./components/ItemsComp";
 import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
+import { getProducts } from "@/actions/actions";
+import Satesto from "./satesto/page";
 
-export default function Home() {
+const Home = () => { 
   return (
     <div>
       <HeaderPage />
@@ -16,3 +18,7 @@ export default function Home() {
     </div>
   );
 }
+
+
+
+export default Home;

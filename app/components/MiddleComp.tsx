@@ -2,6 +2,8 @@ import { Card } from "@/components/ui/card";
 import React from "react";
 import Image from "next/image";
 import { RefButton } from "@/components/ui/refactorButton";
+import { getProducts } from "@/actions/actions";
+import Satesto from '../satesto/page';
 
 const CardInfos = [
   {
@@ -51,5 +53,6 @@ const MiddleComp = () => {
     </div>
   );
 };
+
 
 export default MiddleComp;

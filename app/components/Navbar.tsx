@@ -7,7 +7,9 @@ const Navbar = () => {
       <nav className="container mx-auto grid grid-cols-2 gap-[100px]">
         <ul className="flex justify-start gap-10">
           <li>
-            <a href="/" className="font-bold text-2xl">EcomPrisma™.</a>
+            <a href="/" className="font-bold text-2xl">
+              EcomPrisma™.
+            </a>
           </li>
           <li>
             <a href="/">About</a>
@@ -26,7 +28,7 @@ const Navbar = () => {
           <li>
             <a href="/">My Account</a>
           </li>
-            <Badge>0</Badge>
+          <Badge>0</Badge>
         </ul>
       </nav>
     </header>
