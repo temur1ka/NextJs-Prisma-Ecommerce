@@ -9,7 +9,6 @@ export default async function GET(req: NextApiRequest, res: NextApiResponse) {
     if (req.method === 'GET') {
         try {
             const data = await prisma.product.findMany()
-            console.log("techatka")
 
             res.status(200).json(data);
         } catch (error) {
