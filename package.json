@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@auth/pg-adapter": "^1.5.2",
     "@next/font": "^14.2.5",
     "@prisma/client": "^5.17.0",
     "@radix-ui/react-navigation-menu": "^1.2.0",

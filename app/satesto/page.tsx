@@ -1,8 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-
-const Satesto = ({ data }) => {
+export default function Satesto ({ data }:any){
   const [important, setImportant] = useState(data.ordered);
   const toggleImportant = async () => {
     const response = await fetch(`/api/todos/${data.id}/toggletodo`, {
@@ -34,4 +33,3 @@ const Satesto = ({ data }) => {
   );
 };
 
-export default Satesto;
